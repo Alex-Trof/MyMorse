@@ -1,0 +1,2 @@
+rootProject.name='MyMorse'
+include ':app'

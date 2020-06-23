@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/translate"
+    tools:context=".TranslateActivity">
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="109dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/rounded_button"
+        android:text="Translate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/round_corner_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Your message"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#E3E3E3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
