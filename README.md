@@ -1,12 +1,15 @@
 # MyMorse
 
-## **What is it ?**
- **MyMorse** is an Android app which can translate your text into morse code.
+## **Qu'est ce que c'est ?**
+ **MyMorse** est une application Android permettant de traduire un texte en code morse.
  
-## **How to use**
-1. Write the text you want to translate, translate it and listen it.
+## **Comment l'utiliser**
+1. Ecrivez le texte que vous voulez traduire puis écoutez la traduction.
 
-2. Then choose via which way you want to send your message, SMS or Bluetooth.
+2. Ensuite choisissez comment vous voulez transmettre le message : par SMS ou par Bluetooth.
 
-* Actually you could only translate letter from A to F.
-* Sending your message via Bluetooth is not possible until I resolve the problem.
+
+
+**NB**
+* Actuellement vous pouvez seulement traduire les lettres de A à F.
+* Envoyer un message par Bluetooth n'est pas encore possible dans cette version de l'application.
